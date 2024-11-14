@@ -5,6 +5,7 @@ let primeCount = 0;
 if (!isNaN(number)) {
     console.log("Enter any number: " + number);
     console.log("Multiplication table of " + number + ":");
+    //new code
 
     for (let i = 1; i <= 10; i++) {
         let result = number * i;
